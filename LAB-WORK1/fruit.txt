@@ -1,0 +1,29 @@
+<?php
+
+class Fruits
+{
+    // Member variables
+    public $fruit1 = "Apple";
+    public $fruit2 = "Mango";
+    public $fruit3 = "Banana";
+    public $fruit4 = "Orange";
+    public $fruit5 = "Grapes";
+
+    // Function to display fruit names
+    public function displayFruits()
+    {
+        echo $this->fruit1 . "<br>";
+        echo $this->fruit2 . "<br>";
+        echo $this->fruit3 . "<br>";
+        echo $this->fruit4 . "<br>";
+        echo $this->fruit5 . "<br>";
+    }
+}
+
+// Create an object
+$obj = new Fruits();
+
+// Call the function
+$obj->displayFruits();
+
+?>
